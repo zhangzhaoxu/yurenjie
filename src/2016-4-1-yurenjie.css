@@ -1,0 +1,512 @@
+#layout {
+  padding-top: 0;
+}
+#layout #header {
+  display: none;
+}
+.container-common {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("http://cdn1.showjoy.com/images/8b/8b69ed2940be4bee86742d821f06ff07.png");
+  background-size: 100% 100%;
+  position: absolute;
+}
+#J_container {
+  width: 100%;
+  height: 100%;
+  background: url("http://cdn1.showjoy.com/images/8b/8b69ed2940be4bee86742d821f06ff07.png") #ffe000;
+  background-size: 100% 100%;
+}
+#J_container .musicImg {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin: 12px 0 0 12px;
+}
+#J_container .showJoy {
+  position: fixed;
+  bottom: 10px;
+  width: 50px;
+  height: auto;
+  left: 50%;
+  margin-left: -25px;
+}
+#J_container #J_container1 .loadImage {
+  width: 198px;
+  height: 94px;
+  animation: loadAnimation 2s infinite linear;
+  -webkit-animation: loadAnimation 2s infinite linear;
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  margin: -47px 0 0 -99px;
+  left: 50%;
+  position: fixed;
+}
+#J_container #J_container-2 {
+  perspective: 100px;
+  -webkit-perspective: 100px;
+}
+#J_container #J_container-2 #J_SwitchContainer-2 {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  height: 100%;
+  transform: translateZ(-800px);
+  -webkit-transform: translateZ(-800px);
+}
+#J_container #J_container-2 .textCon {
+  width: 320px;
+  height: 362px;
+  position: absolute;
+  margin: 25px 0 0 38px;
+}
+#J_container #J_container-2 .startCon {
+  width: 184px;
+  height: 140px;
+  position: fixed;
+  bottom: 70px;
+  left: 50%;
+  margin-left: -92px;
+}
+#J_container #J_container-2 .startCon #J_StartInput {
+  position: absolute;
+  width: 135px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2a201f;
+  margin-left: 25px;
+  text-align: center;
+  background-color: transparent;
+}
+#J_container #J_container-2 .startCon #J_Start {
+  margin-top: 15px;
+  position: absolute;
+  width: 184px;
+  height: 150px;
+  animation: startMove 2s infinite linear;
+  -webkit-animation: startMove 2s infinite linear;
+}
+#J_container #J_container-2 .startCon #J_FocusDiv {
+  position: absolute;
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+}
+#J_container #J_container-3 {
+  perspective: 100px;
+  -webkit-perspective: 100px;
+}
+#J_container #J_container-3 #J_SwitchContainer-3 {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  height: 100%;
+  -ms-transform: translateX(2000px);
+      transform: translateX(2000px);
+  -webkit-transform: translateX(2000px);
+}
+#J_container #J_container-3 .jokeTitle {
+  margin-top: 35px;
+}
+#J_container #J_container-3 .showGifCon {
+  width: 260px;
+  height: 280px;
+  margin: auto;
+}
+#J_container #J_container-3 .showGifCon img {
+  height: 280px;
+  width: auto;
+  margin-left: 50px;
+}
+#J_container #J_container-3 .selectMethod {
+  width: 100%;
+  height: 114px;
+  position: fixed;
+  bottom: 55px;
+  overflow-x: scroll;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+}
+#J_container #J_container-3 .selectMethod .methodContainer {
+  width: 700px;
+  height: 114px;
+}
+#J_container #J_container-3 .selectMethod .methodContainer img {
+  display: inline-block;
+  height: 110px;
+  width: auto;
+}
+#J_container #J_container-3 .selectMethod .method {
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-left: 5px;
+}
+#J_container #J_container-4 {
+  perspective: 100px;
+  -webkit-perspective: 100px;
+}
+#J_container #J_container-4 #J_SwitchContainer-4 {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  height: 100%;
+  transform: translateZ(-800px) translateX(2000px);
+  -webkit-transform: translateZ(-800px) translateX(2000px);
+}
+#J_container #J_container-4 .advertisementContainer {
+  width: 100%;
+  height: 150px;
+  padding-top: 10px;
+  position: absolute;
+  perspective: 100px;
+  -webkit-perspective: 100px;
+}
+#J_container #J_container-4 .advertisementContainer img {
+  width: 470px;
+  height: 135px;
+  max-width: none;
+}
+#J_container #J_container-4 .gifContainer {
+  width: 320px;
+  height: auto;
+  margin-top: 30px;
+}
+#J_container #J_container-4 .animationContainer {
+  width: 335px;
+  height: 380px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -190px 0 0 -167px;
+  background: url("http://cdn1.showjoy.com/images/04/041f3666841d48b4a7dc882a70ba4040.png");
+  background-size: 100% 100%;
+}
+#J_container #J_container-4 .animationContainer #J_ActionContainer {
+  width: 143px;
+  height: 133px;
+  position: absolute;
+  margin: 340px 0 0 96px;
+}
+#J_container #J_container-4 .animationContainer .timeContainer {
+  position: absolute;
+  background-image: url("http://cdn1.showjoy.com/images/e1/e1d31cfc9fbc4cfa95182c775642635d.png");
+  background-size: 100% 100%;
+  width: 75px;
+  height: 100px;
+  margin: -30px 0 0 245px;
+}
+#J_container #J_container-4 .animationContainer .timeContainer p {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+}
+#J_container #J_container-4 .animationContainer .timeContainer p span {
+  font-size: 20px;
+}
+#J_container #J_container-4 .animationContainer .gunStyle {
+  width: 170px;
+  height: auto;
+  margin: 40px 0 0 82px;
+}
+#J_container #J_container-4 .animationContainer .gun {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  margin: 150px 0 0 245px;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+#J_container #J_container-4 .shitContainer {
+  width: 180px;
+  height: 85px;
+  position: absolute;
+  margin: 180px 0 0 85px;
+}
+#J_container #J_container-4 .shitContainer .shit_0 {
+  position: absolute;
+  width: 55px;
+  margin-left: 43px;
+}
+#J_container #J_container-4 .shitContainer .shit_1 {
+  width: 55px;
+  position: absolute;
+  margin-top: 25px;
+}
+#J_container #J_container-4 .shitContainer .shit_2 {
+  width: 55px;
+  position: absolute;
+  margin: 22px 0 0 110px;
+}
+#J_container #J_container-4 .shitImgStyle {
+  height: 200px;
+  width: auto;
+  margin: 60px 0 0 90px;
+  position: absolute;
+}
+#J_container #J_container-4 .ForceValue {
+  width: 54px;
+  height: 164px;
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  margin-top: 110px;
+}
+#J_container #J_container-4 .ForceValue img {
+  position: absolute;
+}
+#J_container #J_container-4 .ForceValue #J_ForceContainer {
+  width: 20px;
+  height: 0px;
+  background-color: #cb4638;
+  margin: 148px 0 0 9px;
+  position: absolute;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+#J_container #J_container-4 .mark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  display: none;
+}
+#J_container #J_container-4 .mark .time-img {
+  height: 200px;
+  width: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -90px 0 0 -60px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transform: translateZ(50px);
+  -webkit-transform: translateZ(50px);
+}
+#J_container #J_container-5 {
+  perspective: 100px;
+  -webkit-perspective: 100px;
+}
+#J_container #J_container-5 #J_SwitchContainer-5 {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#J_container #J_container-5 .resultContainer {
+  width: 325px;
+  height: 395px;
+  margin: 20px 0 0 25px;
+}
+#J_container #J_container-5 .resultContainer img {
+  display: block;
+  height: 300px;
+  width: auto;
+  margin: 0 auto 20px;
+}
+#J_container #J_container-5 .resultContainer p {
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 30px;
+}
+#J_container #J_container-5 .nextContainer {
+  width: 184px;
+  height: 120px;
+  margin: auto;
+}
+#J_container #J_container-5 .nextContainer div {
+  margin-top: 4px;
+}
+#J_container #J_container-5 #J_Mark-5 {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 9;
+}
+#J_container #J_container-5 #J_Mark-5 img {
+  float: right;
+  width: 80px;
+  margin: 10px 0 0 -10px;
+}
+#J_container #J_container-5 #J_Mark-5 p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 15%;
+}
+.toFirstChange {
+  -ms-transform: translateX(-300px);
+      transform: translateX(-300px);
+  -webkit-transform: translateX(-300px);
+}
+.toFirstChange2 {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+@keyframes startMove {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@-webkit-keyframes startMove {
+  0% {
+    -webkit-transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+  }
+}
+@keyframes loadAnimation {
+  0% {
+    top: 50%;
+  }
+  25% {
+    top: 55%;
+  }
+  50% {
+    top: 50%;
+  }
+  75% {
+    top: 45%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-webkit-keyframes loadAnimation {
+  0% {
+    top: 50%;
+  }
+  25% {
+    top: 55%;
+  }
+  50% {
+    top: 50%;
+  }
+  75% {
+    top: 45%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes advertisement_1 {
+  0% {
+    -webkit-transform: translateX(470px) scale(1, 1);
+            transform: translateX(470px) scale(1, 1);
+  }
+  100% {
+    -webkit-transform: translateX(-570px) scale(1, 1);
+            transform: translateX(-570px) scale(1, 1);
+  }
+}
+@-webkit-keyframes advertisement_1 {
+  0% {
+    -webkit-transform: translateX(470px) scale(1, 1);
+  }
+  100% {
+    -webkit-transform: translateX(-570px) scale(1, 1);
+  }
+}
+@keyframes changeZ {
+  from {
+    transform: translateZ(50px);
+    -webkit-transform: translateZ(50px);
+  }
+  to {
+    transform: translateZ(0px);
+    -webkit-transform: translateZ(0px);
+  }
+}
+@-webkit-keyframes changeZ {
+  from {
+    transform: translateZ(50px);
+    -webkit-transform: translateZ(50px);
+  }
+  to {
+    transform: translateZ(0px);
+    -webkit-transform: translateZ(0px);
+  }
+}
+.advertiseAnimation_1 {
+  animation: advertisement_1 4s linear;
+  -webkit-animation: advertisement_1 4s linear;
+}
+.markImgAnimation {
+  animation: changeZ 0.5s ease;
+  -webkit-animation: changeZ 0.5s ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.btm-block {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+.btm-block .bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.7;
+}
+.btm-block .app {
+  position: absolute;
+  z-index: 10;
+  top: 5px;
+  left: 20px;
+  width: 100%;
+  height: 40px;
+  background: url("http://file.showjoy.com/images/fb/fbc92d86a3ae40a69862f230634ea0ea.png") no-repeat 0 0;
+  background-size: 40px auto;
+  padding-left: 50px;
+  line-height: 40px;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+.btm-block .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.m-app-cover {
+  display: none;
+}
